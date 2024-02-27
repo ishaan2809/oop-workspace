@@ -6,6 +6,7 @@ int count(int array[], int n){
         if (array[i] %2 == 0) {
             total++;
         }
+        
     }
 
     return total;
