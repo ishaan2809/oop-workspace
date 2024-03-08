@@ -11,7 +11,8 @@ void count_digits(int array[4][4]){
     }
 
 for(int i=0; i<10; i++){
-    std::cout <<i<<":"<< count[i]<<";"<<std::endl;
+    std::cout <<i<<":"<< count[i]<<";";
 
 }
+    std::cout << std::endl;
 }
