@@ -7,7 +7,7 @@ int main() {
     int array1[] = {1, 2, 3, 4, 5};
     int array2[] = {1, 2, 1, 2, 1};
 
-    std::cout << sum_if_palindrome(array1, 5) << std::endl;
+    std::cout << sum_if_palindrome(array2, 5) << std::endl;
      
 
     return 0;

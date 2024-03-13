@@ -30,9 +30,8 @@ int array_max(int integers[], int length) {
 int sum_min_max(int integers[], int length) {
     int min = array_min(integers, length);
     int max = array_max(integers, length);
-    if (min == -1 || max == -1) {
-        return -1;
-    }
-    return min + max;
+    int sum = 0;
+    sum = min + max;
+    return sum;
 }
 
