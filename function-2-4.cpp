@@ -1,9 +1,9 @@
 #include <iostream>
 
-int array_min(int integers[], int length) {
-    if (length <= 0) {
-        return -1;
-    }
+    int array_min(int integers[], int length) {
+        if (length <= 0) {
+            return -1;
+        }
     int min = integers[0];
     for (int i = 0; i < length; i++) {
         if (integers[i] < min) {
