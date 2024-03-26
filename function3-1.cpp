@@ -18,6 +18,16 @@ bool equalsArray(int *numbers1,int *numbers2,int length){
     
 }
 
+
+
+
+
+
+
+
+
+
+
 int *reverseArray(int *numbers1,int length){
     int index = 0;
     int*reverse = new int[10];
