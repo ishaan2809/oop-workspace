@@ -44,11 +44,12 @@ int main() {
 
     Unit *members = apartmentbuilding.get_Contents();
 
-    for (int i = 0; i < apartmentbuilding.get_current_number_of_members(); i++) {
+    for (int i = 0; i < apartmentbuilding.get_Current_Number_of_Units(); i++) {
         std::cout <<i+1 << units[i].get_Num_Bedrooms() <<units[i].get_Value() << units[i].get_Area()<<std::endl;
     }
     
     return 0;
+    
 }
 
 }
