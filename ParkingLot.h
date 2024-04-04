@@ -12,9 +12,7 @@ private:
 public:
     ParkingLot(int max);
     ParkingLot();
-    int getCount(){
-        return capacity;
-    }
+    int getCount();
     void parkVehicle(Vehicle *vehicle);
     void unparkVehicle(int ID);
     int countOverstayingVehicles(int maxParkingDuration);
