@@ -1,5 +1,5 @@
 #include "Vehicle.h"
-#include "bus.h"
+#include "Bus.h"
 #include <iostream>
 #include <ctime>
 
