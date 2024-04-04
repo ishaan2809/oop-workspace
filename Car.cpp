@@ -8,7 +8,7 @@ Car::Car(int id):Vehicle(id){
 }
 
 int Car::getParkingDuration(){
-    return Vehicle::getParkingDuration() * 0.1;
+    return Vehicle::getParkingDuration() * 0.9;
 }
 
 
