@@ -19,11 +19,12 @@ void Helicopter::fly(int headwind, int minutes){
     else{
         fuelNeeded = (0.2 *minutes) + (0.01* extraWeight* minutes);
     }
-    fuel = fuel - fuelNeeded;
-
     if(fuel<20){
         return;
     }
+    fuel = fuel - fuelNeeded;
+
+    
     numberOfFlights++;
 
 
