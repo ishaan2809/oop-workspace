@@ -11,7 +11,7 @@ Helicopter::Helicopter(int w, string n){
 }
 
 void Helicopter::fly(int headwind, int minutes){
-    double fuelNeeded = 0;
+    double fuelNeeded = 0.0;
     int extraWeight = weight> 5670?weight - 5670:0;
     if(headwind>40){
         fuelNeeded = (0.4*minutes) + (0.01* extraWeight* minutes);
