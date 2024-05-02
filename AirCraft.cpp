@@ -31,6 +31,16 @@ int AirCraft::get_weight(){
 int AirCraft::get_numberOfFlights(){
     return this-> numberOfFlights;
 }
+  void AirCraft::set_fuel(int f){
+    this->fuel = f;
+  }
+    void AirCraft::set_weight(int w){
+        this->weight = w;
+    }
+
+    void AirCraft::set_numberofFlights(int n){
+        this->numberOfFlights = n;
+    }
 
 
 

@@ -14,7 +14,10 @@ class AirCraft{
         int get_weight();
         float get_fuel();
         int get_numberOfFlights();
-        
+        void set_fuel(int f);
+        void set_weight(int w);
+        void set_numberofFlights(int n);
+
 
 
 }

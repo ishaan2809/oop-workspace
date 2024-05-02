@@ -8,5 +8,7 @@ int main(){
     h1.fly(45, 10);
     std::cout<<"fuel: "<< h1.get_fuel()<< std::endl;
     std::cout<<"number of flights: "<< h1.get_numberOfFlights()<<std::endl;
+     h1.set_fuel(51);
+     std::cout<<h1.get_fuel()<< std::endl;
 
 }
