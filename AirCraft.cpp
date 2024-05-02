@@ -38,7 +38,7 @@ int AirCraft::get_numberOfFlights(){
         this->weight = w;
     }
 
-    void AirCraft::set_numberofFlights(int n){
+    void AirCraft::set_numberOfFlights(int n){
         this->numberOfFlights = n;
     }
 
