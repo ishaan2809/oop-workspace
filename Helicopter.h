@@ -1,23 +1,22 @@
-#include "AirVehicle.h"
-#include <string>
+#include "AirCraft.h"
 #ifndef HELICOPTER_H
 #define HELICOPTER_H
+#include <string>
 using namespace std;
-class  Helicopter: public AirVehicle{
+class Helicopter : public AirCraft{
     private:
-    string name;
-    
+        string name;
 
     public:
-    Helicopter();
-    Helicopter(int w, string n);
-    void fly(int headwind, int miinutes);
-    void set_name(string name);
-    string get_name();
+        Helicopter(int w, string n); 
+        void fly(int headwind, int minutes);
+        string get_name();
+        
+        
     
 
 
-    
+
 
 };
 #endif

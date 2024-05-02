@@ -1,15 +1,12 @@
 #include "AirFleet.h"
+#include <string>
 #include <iostream>
 
-int main()
-{
+int main(){
     AirFleet fleet;
-    AirVehicle **vehicles = fleet.get_fleet();
-
-    for (int i = 0; i < 5; i++)
-    {
-        std::cout << "Vehicle " << i + 1 << " weight: " << vehicles[i]->get_weight() << std::endl;
+    AirCraft **vehicles = fleet.get_fleet();
+    for( int i = 0; i<5; i++){
+        std::cout<<vehicles[i]->get_weight()<<std::endl;
     }
-
-    return 0;
 }
+

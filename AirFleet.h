@@ -1,14 +1,13 @@
-#include "AirVehicle.h"
+#include "AirCraft.h"
 #ifndef AIRFLEET_H
 #define AIRFLEET_H
-class AirFleet: public AirVehicle{
+class AirFleet : public AirCraft{
     private:
-    AirVehicle**fleet;
-
+        AirCraft **fleet;
+    
     public:
-    AirFleet();
-    AirVehicle ** get_fleet();
-
+        AirFleet();
+        AirCraft **get_fleet(); 
 
 };
 #endif
