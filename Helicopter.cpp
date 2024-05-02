@@ -5,7 +5,7 @@
 Helicopter::Helicopter(int w, string n){
     this-> weight = w;
     this-> name = n;
-    this-> fuel = 80;
+    this-> fuel = 100;
     this-> numberOfFlights = 0;
 
 }

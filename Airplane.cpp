@@ -8,7 +8,7 @@ Airplane::Airplane(){
 Airplane::Airplane(int w, int p){
     this-> weight = w;
     this-> numPassengers = p;
-    this-> fuel = 95;
+    this-> fuel = 100;
     this-> numberOfFlights = 0;
 
 
