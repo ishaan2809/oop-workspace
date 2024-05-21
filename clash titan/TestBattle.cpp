@@ -1,6 +1,7 @@
 
 
 #include "Battle.h"
+#include "Oceania.h"
 #include "Prometheus.h"
 #include <iostream>
 
@@ -8,7 +9,7 @@ using namespace std;
 
 void testBattle() {
     // Create Titans
-    Prometheus titan1("Prometheus1", "Fire", 60, 39, 52, 43);
+    Oceania titan1("Prometheus1", "Fire", 60, 39, 52, 43);
     Prometheus titan2("Prometheus2", "Fire", 60, 39, 52, 43);
 
     // Display initial HP
