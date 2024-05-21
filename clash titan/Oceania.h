@@ -6,7 +6,7 @@ using namespace std;
 class Oceania: public Titan{
     public:
     Oceania(string name, string type, int damage, int hp, int attack,int defense);
-    void doAttack(int amount);
+    void doAttack(Titan*opponent);;
     void takeDamage(int amount);
 
 
