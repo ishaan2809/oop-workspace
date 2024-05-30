@@ -11,7 +11,7 @@
 #include <iostream>
 using namespace std;
 
-class GameSession{
+class Game{
     private:
         std::vector<Cell*> grid;
         int gridWidth; 
@@ -19,7 +19,7 @@ class GameSession{
         std::vector<Cell*>& getGrid(){
             return grid;
         }
-        void initGameSessioninitGame(int numCharacters, int numTraps, int gridWidth, int gridHeight){
+        void initGame(int numCharacters, int numTraps, int gridWidth, int gridHeight){
             for(int i = 0; i < numCharacters; i++){
                 tuple<int,int> pos = Utils::generateRandomPos(gridWidth,gridHeight);
                 Character* character = new Character(get<0>(pos),get<1>(pos));
