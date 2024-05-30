@@ -9,11 +9,11 @@ int main(){
     Game game;
     game.initGame(0, 3, 10, 5);
 
-    vector<Cell*>& getGrid = game.getGrid();
+    vector<Cell*>& grid = game.getGrid();
 
     for(auto obj:grid){
         cout << "type: " << obj->getType() << endl;
-        cout << "Position:  "<< obj.get<0>(obj->getPos()) << "," << obj.get<1>(obj->getPos()) <<  endl;
+        cout << "Position:  "<< get<0>(obj->getPos()) << "," << get<1>(obj->getPos()) <<  endl;
     }
 
 }
