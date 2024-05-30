@@ -72,7 +72,7 @@ class Game{
                 }
                 
             }
-            cout << "Character has won the game!" << endl;
+            cout << "Maximum number of iterations reached. Game over." << endl;
                 
             
   
