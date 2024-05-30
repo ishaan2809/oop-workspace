@@ -56,7 +56,7 @@ class Game{
                                 if(dist <= trapActivationDistance){
                                     trap->apply(*character); 
                                     if(get<0>(character->getPos()) > gridWidth){
-                                    cout << "Maximum number of iterations reached. Game over." << endl;
+                                    cout << "Character has won the game!" << endl;
                                     break;
                         }
                                 }
